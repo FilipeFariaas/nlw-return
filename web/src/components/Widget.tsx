@@ -1,6 +1,8 @@
 import { ChatTeardropDots } from 'phosphor-react'
 import { useState } from 'react'
 
+import { Popover } from '@headlessui/react'
+
 export function Widget() {
   const [isWidgetOpen, setIsWidgetOpen] = useState(false)
 
